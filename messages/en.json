@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "nav1": "Pricing",
+    "nav2": "Features",
+    "nav3": "Support",
+    "nav4": "Contact",
+    "navButton": "Login"
+  },
+  "Hero": {
+    "title": "Pos.al: Simplify Your Point of Sale",
+    "desc": "Simplify Sales. Enhance Service.",
+    "heroButton": "Try Now..."
+  },
+  "Price": {
+    "title": "Platform's plans and prices",
+    "monthly": "Monthly",
+    "desc": "What’s included",
+    "pos": "Access to our Pos platform.",
+    "posCash": "Access to Pos and cash fiscalization.",
+    "posE-invoice": "Access to Pos, cash and e-invoice fiscalization.",
+    "restapi": "Access to Rest API, cash, non-cash, e-invoice services.",
+    "restApidec": "Rest API Fiscalization",
+    "priceButton": "Get Started"
+  },
+  "Features": {
+    "title": "Features",
+    "c1t1": "EASY PRODUCT MANAGEMENT",
+    "c1t2": "Pos.al simplifies the management of products",
+    "c1t3": "With Pos.al businesses can swiftly navigate through their catalog, search for items, and apply filters to quickly find specific products, ensuring a smooth and efficient sales process.",
+    "c1t4": "Intuitive catalog",
+    "c1t5": "Efficient management",
+    "c2t1": "FLEXIBLE PAYMENT OPTIONS",
+    "c2t2": "Pos.al offers flexible payment options",
+    "c2t3": "With Pos.al you can generate customizable receipts and invoices, providing businesses with a professional and organized approach to financial transactions.",
+    "c2t4": "Multiple payment methods",
+    "c2t5": "Secure transactions",
+    "c3t1": "CUSTOMER SUPPORT AND HELPDESK",
+    "c3t2": "Pos.al offers integrated customer support and helpdesk features",
+    "c3t3": "The platform includes ticketing systems, live chat support, and a knowledge base to address common questions or concerns. With a dedicated customer support and helpdesk feature, you can improve customer satisfaction, build trust, and maintain strong relationships.",
+    "c3t4": "Customer support",
+    "c3t5": "Helpdesk integration"
+  },
+  "Contact": {
+    "title": "Get in Touch with us",
+    "desc": "If you have any quesiton or need help with anything, don't hesitate to reach out to us:",
+    "phone": "Mobile",
+    "contactYoutube": "Follow us on Youtube",
+    "contactMail": "Email us"
+  }
+}

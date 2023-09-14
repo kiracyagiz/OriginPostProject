@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+
+#yagiz {
+  box-shadow: inset 0 -0.5em #ffbe0b;
+  transition: box-shadow 0.3s ease;
+}
+
+#yagiz:hover {
+  box-shadow: inset 0 -1.1em #ffbe0b;
+}
+.robot-regular {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+}
+
+.robot-bold {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+}

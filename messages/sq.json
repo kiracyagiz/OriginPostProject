@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "nav1": "Çmimet",
+    "nav2": "Risitë",
+    "nav3": "NdihmaOnline",
+    "nav4": "Kontakti",
+    "navButton": "Hyr"
+  },
+  "Hero": {
+    "title": "Platforma POS",
+    "desc": "Thjeshtoni shitjet. Përmirësoni Shërbimin",
+    "heroButton": "Provo Pos.."
+  },
+  "Price": {
+    "title": "Çmimet në platformë",
+    "monthly": "Muaj",
+    "desc": "Çfarë përfshihet",
+    "pos": "Akses në platformën Pos.",
+    "posCash": "Akses në Pos + fiskalizimin cash.",
+    "posE-invoice": "Akses në Pos, cash dhe e-invoice.",
+    "restapi": "Akses në shërbimet Rest API, cash, jo-cash, e-invoice.",
+    "restApidec": "Fiskalizim Rest API",
+    "priceButton": "Provoni Pos"
+  },
+  "Features": {
+    "title": "Risitë",
+    "c1t1": "MENAXHIM I THJESHTË I PRODUKTEVE",
+    "c1t2": "Pos.al e bën menaxhimin e produkteve më të lehtë",
+    "c1t3": "Me Pos.al bizneset mund të navigojnë me shpejtësi nëpër kataloget e tyre, të kërkojnë artikuj dhe të vendosin filtra për të gjetur shpejt produkte specifike, duke siguruar një proces të qetë dhe efikas të shitjeve.",
+    "c1t4": "Katalog i thjeshtë",
+    "c1t5": "Menaxhim efikas",
+    "c2t1": "PAGESA FLEKSIBËL",
+    "c2t2": "Pos. al ofron mënyra pagesash fleksibël",
+    "c2t3": "Me Pos.al ju mund të gjeneroni fatura të personalizuara, duke u ofruar bizneseve një qasje profesionale dhe të organizuar ndaj transaksioneve financiare",
+    "c2t4": "Mënyra pagesash të ndryshme",
+    "c2t5": "Transaksione të sigurta",
+    "c3t1": "SHËRBIM KLIENTI DHE LIVE CHAT",
+    "c3t2": "Pos.al ofron shërbim klienti dhe live chat",
+    "c3t3": "Platforma përfshin krijimin e 'tickets', suport live me agjentët tanë dhe një bazë njohurish për të adresuar pyetjet ose problemet e zakonshme. Me një suport të dedikuar, ju mund të përmirësoni kënaqësinë e klientit, të krijoni besim dhe të mbani marrëdhënie të forta.",
+    "c3t4": "Shërbim klienti",
+    "c3t5": "Integrim me live chat"
+  },
+  "Contact": {
+    "title": "Na kontaktoni",
+    "desc": "Nëse keni ndonjë pyetje ose keni nevojë për ndihmë mos hezitoni të na kontaktoni:",
+    "phone": "Telefon",
+    "contactYoutube": "Na ndiqni në Youtube",
+    "contactMail": "Na shkruani në Email"
+  }
+}

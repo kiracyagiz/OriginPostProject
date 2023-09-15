@@ -7,7 +7,7 @@ const Language = ({ locale, localeEn }) => {
         <Link href={locale}>
           <button className="bg-primaryYellow text-gray-700 font-semibold  px-4  rounded inline-flex items-center">
             <img
-              className="m-2"
+              className="m-2 w-4 md:w-8"
               src="https://landing-dot-pos-al.ew.r.appspot.com/static/1f44ba221b2623e8eb84fc820378aea1/3591c/sq.webp"
               alt=""
             />
@@ -21,7 +21,7 @@ const Language = ({ locale, localeEn }) => {
                 <img
                   src="	https://landing-dot-pos-al.ew.r.appspot.com/static/745ac48644ea9f3506234651f91c42c2/3591c/en.webp"
                   alt=""
-                  className="w-8 "
+                  className="w-4 md:w-8 "
                 />
                 <p className="text-sm ">EN</p>
               </span>

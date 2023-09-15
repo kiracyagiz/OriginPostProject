@@ -29,9 +29,8 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
           <Link href="https://posal.tawk.help/">{nav3}</Link>
           <a href="/#contact">{nav4}</a>
 
-          <li className="">
-            <ButtonPrimary text={navButton} />
-          </li>
+          <ButtonPrimary text={navButton} />
+
           <Language locale={locale} localeEn={localeEn} />
         </nav>
       </div>
@@ -39,11 +38,14 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
       <HamburgerMenu togglePanel={togglePanel} panelOpen={panelOpen} />
       {panelOpen && (
         <div className=" transform transition duration-700 ease-in-out fixed top-0 right-0 bottom-0 h-full w-1/2 bg-primaryYellow p-4 shadow-md ">
-          <div className="flex flex-col list-none font-bold text-lg text-center items-center mt-52 gap-y-8">
-            <li>{nav1}</li>
-            <li>{nav2}</li>
-            <li>{nav3}</li>
-            <li>{nav4}</li>
+          <div
+            className="flex flex-col list-none font-bold text-lg text-center items-center mt-52 gap-y-8"
+            onClick={togglePanel}
+          >
+            <a href={`/#pricing`}>{nav1}</a>
+            <a href="/#features">{nav2}</a>
+            <Link href="https://posal.tawk.help/">{nav3}</Link>
+            <a href="/#contact">{nav4}</a>
 
             <ButtonPrimary text="Login" />
             <Language locale={locale} localeEn={localeEn} />

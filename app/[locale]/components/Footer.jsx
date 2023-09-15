@@ -20,7 +20,9 @@ const Footer = () => {
           <Link href={`${t("locale")}/about`}>
             <li>ABOUT</li>
           </Link>
-          <li>FAQ</li>
+          <Link href={`${t("locale")}/faq`}>
+            <li>FAQ</li>
+          </Link>
         </div>
       </div>
     </div>

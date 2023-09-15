@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Price from "./components/Price";
+import { useState } from "react";
 
 export default function Home() {
   const t = useTranslations("Header");

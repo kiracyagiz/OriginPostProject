@@ -21,6 +21,8 @@ export default function Home() {
         nav3={nav3}
         nav4={nav4}
         navButton={navButton}
+        locale={"/sq"}
+        localeEn={"/en"}
       />
       <Hero />
       <Price />

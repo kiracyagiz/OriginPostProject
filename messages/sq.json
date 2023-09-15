@@ -46,5 +46,62 @@
     "phone": "Telefon",
     "contactYoutube": "Na ndiqni në Youtube",
     "contactMail": "Na shkruani në Email"
+  },
+  "Locale": {
+    "locale": "sq"
+  },
+  "Terms": {
+    "title": "Termat & Kushtet",
+    "contents": "Përmbajtja",
+    "c1": "Hyrje",
+    "c2": "Përdorimi i faqes",
+    "c3": "Prona intelektuale",
+    "c4": "Politikat e privatësisë",
+    "c5": "Përgjegjësia e përdoruesit mbi kredencialet e llogarisë",
+    "c6": "Sjellja e përdoruesit",
+    "c7": "Abonimet dhe përgjegjësitë financiare",
+    "c8": "Live chat dhe Shërbimi i klientit",
+    "c9": "Përgjegjësia e përdoruesit mbi fiskalizimin",
+    "c10": "Kufizimi i përgjegjësisë",
+    "c11": "Modifikimet",
+    "c12": "Ligji në fuqi",
+    "c13": "Na kontaktoni",
+    "ct1": "Mirësevini në faqen tonë të Pikës së Shitjes (POS). Këto terma dhe kushte zbatohen për të gjithë përdoruesit e faqes sonë dhe shërbimeve që ofron. Duke hyrë ose duke përdorur faqen tonë, ju pranoni të jeni të bini dakort me këto Kushte. Nëse nuk jeni dakord me këto Kushte, nuk mund të përdorni faqen dhe shërbimet e saj.",
+    "ct2": "Juve ju jepet e drejta për të përdorur faqen dhe shërbimet tona vetëm për qëllime të ligjshme. Ju nuk mund ta përdorni faqen në asnjë mënyrë që shkel çdo ligj ose rregullore të zbatueshme vendore ose kombëtare.",
+    "ct3": "Të gjithë elementet e përdorur në këtë faqe, duke përfshirë elementët vizualë apo zanorë, dhe softuer, janë të mbrojtura nga e drejta e autorit. Ato janë në pronësinë e Pos.al. Kjo faqe përdoret sipas kushteve të përgjithshme që përcaktohen këtu. Klienti ka të drejtë ta përdorë këtë faqe vetëm për përdorimin e tij personal dhe çdo kopjim, përdorim i paautorizuar i elementeve të përdorura në këtë faqe është i ndaluar.",
+    "ct4p1": "Pos.al ka të drejtën të përpunojë të dhënat personale në mënyrë që të përmirësojë menaxhimin e marrëdhënies me klientët e saj dhe të promovojë shërbimet e ofruara në faqe, pa i ndarë ato me palë të treta. Pos.al mbledh nga përdoruesi të dhënat e mëposhtme: Emër, Mbiemër, NIPT, Adresa, Qyteti, Numër telefoni, Adresë e-mail.",
+    "ct4p2": "Qëllimet për të cilat ne përpunojmë të dhënat e klientëve janë si më poshtë:",
+    "ct4p3": "1. Dërgim të informacioneve në lidhje me abonimet e blera dhe njoftimet e përgjithshme nëpërmjet email ose thirrjes telefonike.",
+    "ct4p4": "2. Dërgim të njoftimeve të personalizuara mbi veprimet e marra në faqe.",
+    "ct4p5": "Në rastet si më poshtë:",
+    "ct4p6": "1.Ngarkimi i certifikatës së fiskalizimit në mënyrë që të fiskalizoni faturat tuaj, të dhënat nuk ndahen me palët e treta.",
+    "ct4p7": "2.Pagesat e abonimeve në platformë, të dhënat sensitive të llogarisë bankare të përdorur, kartave të debitit, kreditit nuk mblidhen dhe të ndahen me palët e treta.",
+    "ct4p8": "3.Ruajtjes së një llogarie bankare në program duke vendosur: IBAN, Emrin e bankës, SWIFT, nuk ndahen me palët e treta",
+    "ct5": "Ju e kuptoni dhe pranoni se jeni vetë përgjegjës për ruajtjen e konfidencialitetit dhe sigurisë së emrit tuaj të përdoruesit(username), emailit dhe fjalëkalimit të lidhur me llogarinë tuaj. Çdo aktivitet i kryer nën llogarinë tuaj do të konsiderohet përgjegjësia juaj.",
+    "ct6": "Ju pranoni të përdorni faqen tonë në një mënyrë që është ligjore, etike dhe respektuese e të drejtave të të tjerëve. Ju nuk mund të përdorni faqen tonë të internetit për të ngacmuar, kërcënuar ose frikësuar të tjerët, për t'u përfshirë në ndonjë aktivitet që është mashtrues, ilegal ose i dëmshëm, ose për të transmetuar ndonjë virus ose kod tjetër të dëmshëm.",
+    "ct7p1": "Kur bleni një/disa abonim/e mbi shërbimet tona, ju kuptoni dhe pranoni përgjegjësinë e plota për të gjitha transaksionet dhe veprimet e kryera në llogarinë tuaj. Ju pranoni të adresoni menjëherë çdo çështje që lidhet me pagesat dhe të siguroni saktësinë e informacionit të faturimit. Kompania jonë nuk është përgjegjëse për ndonjë humbje financiare të shkaktuar nga përdorimi i shërbimeve tona.",
+
+    "ct7p2": "Është e rëndësishme të theksohet se për abonimet e paguara ose ndonjë ndërveprim tjetër financiar, ne nuk ofrojmë dëmshpërblime. Ju jeni vetë përgjegjës për çdo vendim, transaksion ose implikim financiar që mund të lind nga përdorimi i platformës sonë. Çdo veprim i ndërmarrë në llogarinë tuaj, duke përfshirë dhe abonimet, ndërmerren me rrezikun tuaj.",
+
+    "ct8p1": "Ne jemi të përkushtuar për të ofruar mbështetje të shkëlqyer ndaj klientit për të përmirësuar përvojën tuaj me faqen tonë të Pikave të Shitjes (POS). Ekipi ynë i kujdesit ndaj klientit është në dispozicion për t'ju ndihmuar gjatë orarit tonë të rregullt të punës, nga e hëna në të premte, nga ora 7:00 deri në orën 21:00 dhe ditën e shtunë nga ora 9:00 deri në orën 16:00.",
+
+    "ct8p2": "Gjatë orarit të punës---Nëse keni nevojë për ndihmë ose keni ndonjë pyetje, përfaqësuesit tanë të kujdesit ndaj klientit janë të gatshëm t'ju ndihmojnë. Mund të na kontaktoni përmes sistemit tonë të mbështetjes live-chat, i disponueshëm në faqe",
+    "ct8p3": "Pas orarit të punës - Mbështetje me email---Për lehtësinë tuaj, edhe pas orarit të rregullt të punës, mund të na kontaktoni për mbështetje. Nëse hasni ndonjë problem ose keni pyetje, mund të na lini një email në adresën e dhënë në faqen tone kryesore. Kur lini një email, ju lutemi sigurohuni që të përfshini emrin tuaj, adresën e emailit dhe një përshkrim të detajuar të problemit me të cilin po përballeni. Ekipi ynë do t'i përgjigjet emailit tuaj brenda ditës së ardhshme të punës. Gjithmonë mund të referoheni edhe në faqen tone të njohurive bazë në linkun: https://posal.tawk.help/",
+    "ct8p4": "Ndihma në çështjet me prioritet të lartë ---Në rast të çështjeve që kërkojnë vëmendje të menjëhershme jashtë orarit tonë të rregullt të punës si: dokumentet e shitjes nuk ruhen në sistem, e keni të pamundur të logoheni në profilin tuaj , ju keni mundësi për ndihmë të shpejtë.",
+    "ct8p5": "Ju mund të dërgoni një email direkt në adresën e mëposhtme: [info@pos.al].",
+    "ct8p6": "Për më tepër ju mund të telefononi linjën tonë të ndihmës në [+355672014274] për mbështetje të menjëhershme.",
+
+    "ct8p7": "Ne jemi të përkushtuar të sigurojmë që ju të merrni ndihmën dhe mbështetjen e nevojshme për një përvojë të qetë gjatë përdorimit të platformës sonë të softuerit POS.",
+    "ct9p1": "Është e rëndësishme të theksohet se fiskalizimi, duke përfshirë trajtimin e duhur të faturave dhe kërkesave ligjore përkatës, është përgjegjësi e vetë përdoruesit. Platforma jonë ofron mjetet dhe risitë e nevojshme për të lehtësuar proceset e fiskalizimit, por pajtueshmëria përfundimtare me rregulloret tatimore dhe raportimi i saktë i takon përdoruesit.",
+    "ct9p2": "Ndërsa ne përpiqemi të ofrojmë një përvojë dhe mbështetje pa probleme në përdorimin e risive mbi fiskalizimin në platformën tonë, është thelbësore që përdoruesit të kuptojnë dhe t'u përmbahen detyrimeve ligjore të juridiksionit të tyre. Ne inkurajojmë përdoruesit të qëndrojnë të informuar për ligjet dhe rregulloret përkatëse që kanë të bëjnë me fiskalizimin dhe të kërkojnë këshilla profesionale nëse është e nevojshme.",
+    "ct9p3": "Si pjesë e angazhimit tonë për transparencë dhe fuqizim të përdoruesve, ne ofrojmë burime dhe udhëzime për të ndihmuar përdoruesit në kuptimin dhe përmbushjen e detyrimeve të tyre mbi fiskalizimin. Megjithatë, përdoruesit janë vetë përgjegjës për të siguruar saktësinë dhe plotësinë e aktiviteteve të tyre të fiskalizimit gjatë përdorimit të platformës sonë.",
+    "ct9p4": "Duke përdorur platformën tonë të softuerit POS, përdoruesit kuptojnë dhe pranojnë të ndërmarrin detyrat e tyre të fiskalizimit në përputhje me ligjet dhe rregulloret në fuqi.",
+    "ct9p5": "Ne jemi këtu për të ofruar mbështetje dhe ndihmë, por përgjegjësia përfundimtare për fiskalizimin i takon çdo përdoruesi.",
+
+    "ct10": "Kompania jonë nuk është përgjegjëse për ndonjë dëm që rezulton nga përdorimit të gabuar ose pamundësisë për të përdorur faqen tonë ose shërbimet tona. Kjo përfshin, por nuk kufizohet në dëmet direkte, dëmet ndërmjetëse, rastësore, ndëshkuese dhe dëmet pasojore. Ne nuk marrim përgjegjësi për humbjet ose dëmet që mund të shkaktohen nga akses i paautorizuar që përdor serverat tanë ose ndërpret shërbimet tona.",
+
+    "ct11": "Ne rezervojmë të drejtën për të bërë ndryshime ose rishikime në këto Kushte në çdo kohë pa njohfrim paraprak. Përdorimi i vazhdueshëm i faqes pas çdo ndryshimi në këto Kushte përbën pranimin tuaj të Kushteve të reja.",
+    "ct12": "Këto Kushte do të nënshtrohen dhe do të interpretohen në përputhje me ligjet e Republikës së Shqipërisë, pa prekur parimet e konfliktit të ligjit.",
+    "ct13": "Nëse keni ndonjë pyetje ose koment në lidhje me këto Kushte, ju lutemi na kontaktoni në +355672014274 ose dërgoni email në info@pos.al."
   }
 }

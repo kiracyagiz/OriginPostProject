@@ -5,7 +5,7 @@ import HamburgerMenu from "./HamburgerMenu";
 import ButtonPrimary from "./ButtonPrimary";
 import Language from "./Language";
 
-const Header = ({ nav1, nav2, nav3, nav4, navButton }) => {
+const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
   const [panelOpen, setPanelOpen] = useState(false);
 
   const togglePanel = () => {
@@ -28,7 +28,7 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton }) => {
           <li className="">
             <ButtonPrimary text={navButton} />
           </li>
-          <Language />
+          <Language locale={locale} localeEn={localeEn} />
         </nav>
       </div>
 
@@ -42,7 +42,7 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton }) => {
             <li>{nav4}</li>
 
             <ButtonPrimary text="Login" />
-            <Language />
+            <Language locale={locale} localeEn={localeEn} />
           </div>
         </div>
       )}

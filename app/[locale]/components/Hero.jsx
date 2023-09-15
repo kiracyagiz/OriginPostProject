@@ -7,7 +7,6 @@ import TextPrimary from "./TextPrimary";
 
 const Hero = () => {
   const t = useTranslations("Hero");
-
   return (
     <div className="bg-gray-100">
       <div className="p-8 md:p-0 flex flex-col items-center font-bold text-center mt-6 md:mt-16 gap-y-10">

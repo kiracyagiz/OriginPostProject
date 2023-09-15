@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-const Language = () => {
+const Language = ({ locale, localeEn }) => {
   return (
     <div className="flex items-center gap-x-2">
       <div className="group inline-block relative">
-        <Link href={"/sq"}>
+        <Link href={locale}>
           <button className="bg-primaryYellow text-gray-700 font-semibold  px-4  rounded inline-flex items-center">
             <img
               className="m-2"
@@ -14,7 +14,7 @@ const Language = () => {
             <p className="text-sm">SQ</p>
           </button>
         </Link>
-        <Link href={"/en"}>
+        <Link href={localeEn}>
           <div className="absolute hidden bg-white p-2 text-center items-center ml-4 group-hover:block">
             <div className="flex gap-x-3 items-center bg-white">
               <span className=" m-2 gap-x-4 bg-white">

@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useTranslations } from "next-intl";
@@ -23,12 +22,14 @@ const Terms = () => {
         locale={"/sq/terms"}
         localeEn={"/en/terms"}
       />
-      <h1 className="text-center text-4xl mt-16 font-semibold">{p("title")}</h1>
+      <h1 className="text-center text-4xl mt-16 font-semibold heroRoboto">
+        {p("title")}
+      </h1>
 
       <div className=" md:gap-x-32 md:mx-32 mt-16 flex flex-col gap-y-8 md:flex-row items-start ">
         <div className="w-1/4 md:sticky md:top-0 mx-auto items-center md:left-36 bg-gray-100 pt-8">
-          <p className="text-lg font-bold mb-4">{p("contents")}</p>
-          <div className="flex flex-col gap-y-2">
+          <p className="text-xl font-bold mb-4 roboto700">{p("contents")}</p>
+          <div className="flex flex-col gap-y-2 active">
             <a href="#turgay">{p("c1")}</a>
             <a href="#useofwebsite">{p("c2")}</a>
             <a href="#IntellectualProperty">{p("c3")}</a>

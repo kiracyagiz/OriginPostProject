@@ -17,10 +17,10 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
       className={`flex justify-between  items-center h-100 bg-primaryYellow`}
     >
       <div className="flex justify-between p-6 md:mx-67 gap-x-44 ">
-        <div className="items-center flex justify-between">
-          <p className="font-semibold text-3xl">Pos.</p>
+        <div className="items-center flex justify-between ">
+          <p className="heroRoboto ">Pos.</p>
         </div>
-        <nav className="items-center hidden md:flex justify-between  list-none font-bold gap-x-10 text-lg">
+        <nav className="items-center hidden md:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
           <li>{nav1}</li>
           <li>{nav2}</li>
           <li>{nav3}</li>

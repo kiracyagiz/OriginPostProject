@@ -17,6 +17,8 @@ module.exports = {
       colors: {
         primaryYellow: "#FFBF0B",
         primaryBg: "#F2F2F2",
+        primaryAbout: "#666666",
+        secondaryAbout: "#555555",
       },
       height: {
         100: "100px",
@@ -26,6 +28,7 @@ module.exports = {
       width: {
         70: "286px",
         400: "400px",
+        "2rem": "2rem",
       },
 
       margin: {
@@ -37,6 +40,10 @@ module.exports = {
       boxShadow: {
         "inset-custom": "inset 0 -0.7em #ffbe0b",
         "inset-custom-hover": "inset 0 -1.2em #ffbe0b",
+      },
+      fontSize: {
+        featuresH: "22px",
+        contactH: "34px",
       },
     },
   },

@@ -1,0 +1,48 @@
+import React from "react";
+import Header from "../components/Header";
+import { useTranslations } from "next-intl";
+import TextPrimary from "../components/TextPrimary";
+import Footer from "../components/Footer";
+const About = () => {
+  const t = useTranslations("Header");
+  const p = useTranslations("About");
+  const nav1 = t("nav1");
+  const nav2 = t("nav2");
+  const nav3 = t("nav3");
+  const nav4 = t("nav4");
+  const navButton = t("navButton");
+  return (
+    <div className="bg-gray-100">
+      <Header
+        nav1={nav1}
+        nav2={nav2}
+        nav3={nav3}
+        nav4={nav4}
+        navButton={navButton}
+        locale={"/sq/about"}
+        localeEn={"/en/about"}
+      />
+      <div className="bg-gray-100 mt-8 mb-16  h-fit">
+        <div className=" mx-auto flex gap-y-3 flex-col max-w-3xl p-12 rounded-lg shadow-2xl border border-gray-200 p bg-white">
+          <h2 className=" aboutTitle text-center mb-4">{p("title")}</h2>
+          <p className="roboto400 text-lg leading-7 text-primaryAbout">
+            {p("c1")}
+          </p>
+          <p className="roboto400 text-lg leading-7 text-primaryAbout">
+            {p("c2")}
+          </p>
+          <p className="roboto700 text-3xl text-secondaryAbout text-center">
+            {p("c3")}
+          </p>
+          <div className="flex flex-col gap-x-2">
+            <TextPrimary text={p("c4")} fontStyle={"roboto400"} />
+            <TextPrimary text={p("c5")} fontStyle={"roboto400"} />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default About;

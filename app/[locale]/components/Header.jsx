@@ -58,7 +58,7 @@ const Header = ({
           <a href="/#contact">{nav4}</a>
 
           <ButtonPrimary text="Login" />
-          <Language locale={locale} localeEn={localeEn} />
+          <Language locale={locale} localeEn={localeEn} param={param} />
         </div>
       </div>
     </header>

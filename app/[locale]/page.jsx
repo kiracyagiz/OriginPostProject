@@ -6,13 +6,14 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Price from "./components/Price";
 
-export default function Home() {
+export default function Home({ params }) {
   const t = useTranslations("Header");
   const nav1 = t("nav1");
   const nav2 = t("nav2");
   const nav3 = t("nav3");
   const nav4 = t("nav4");
   const navButton = t("navButton");
+  const param = params;
   return (
     <div className="bg-gray-100">
       <Header
@@ -23,6 +24,7 @@ export default function Home() {
         navButton={navButton}
         locale={"/sq"}
         localeEn={"/en"}
+        param={param.locale}
       />
       <Hero />
       <Price />

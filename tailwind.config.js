@@ -33,6 +33,10 @@ module.exports = {
 
       margin: {
         67: "268px",
+        4.5: "75px",
+      },
+      spacing: {
+        4.5: "70px",
       },
       screens: {
         xlmd: "991px",

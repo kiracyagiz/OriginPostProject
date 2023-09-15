@@ -6,7 +6,16 @@ import ButtonPrimary from "./ButtonPrimary";
 import Language from "./Language";
 import Link from "next/link";
 
-const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
+const Header = ({
+  nav1,
+  nav2,
+  nav3,
+  nav4,
+  navButton,
+  locale,
+  localeEn,
+  param,
+}) => {
   const [panelOpen, setPanelOpen] = useState(false);
 
   const togglePanel = () => {
@@ -15,7 +24,7 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
 
   return (
     <header
-      className={`flex justify-between   items-center h-100 bg-primaryYellow`}
+      className={`flex justify-between items-center h-100 bg-primaryYellow`}
     >
       <div className="flex justify-between p-6 md:mx-67 gap-x-44 animate-slide-down ">
         <div className="items-center flex justify-between ">
@@ -31,27 +40,27 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
 
           <ButtonPrimary text={navButton} />
 
-          <Language locale={locale} localeEn={localeEn} />
+          <Language locale={locale} localeEn={localeEn} param={param} />
         </nav>
       </div>
 
       <HamburgerMenu togglePanel={togglePanel} panelOpen={panelOpen} />
-      {panelOpen && (
-        <div className=" transform transition duration-700 ease-in-out fixed top-0 right-0 bottom-0 h-full w-1/2 bg-primaryYellow p-4 shadow-md ">
-          <div
-            className="flex flex-col list-none font-bold text-lg text-center items-center mt-52 gap-y-8"
-            onClick={togglePanel}
-          >
-            <a href={`/#pricing`}>{nav1}</a>
-            <a href="/#features">{nav2}</a>
-            <Link href="https://posal.tawk.help/">{nav3}</Link>
-            <a href="/#contact">{nav4}</a>
 
-            <ButtonPrimary text="Login" />
-            <Language locale={locale} localeEn={localeEn} />
-          </div>
+      <div
+        className={`${
+          panelOpen ? "right-0 " : "right-[-100%] duration-1000"
+        }  duration-700 ease-in-out fixed top-0 right-0 bottom-0 h-full w-1/2 bg-primaryYellow p-4 shadow-md `}
+      >
+        <div className="flex flex-col list-none font-bold text-lg text-center items-center mt-52 gap-y-8">
+          <a href={`/#pricing`}>{nav1}</a>
+          <a href="/#features">{nav2}</a>
+          <Link href="https://posal.tawk.help/">{nav3}</Link>
+          <a href="/#contact">{nav4}</a>
+
+          <ButtonPrimary text="Login" />
+          <Language locale={locale} localeEn={localeEn} />
         </div>
-      )}
+      </div>
     </header>
   );
 };

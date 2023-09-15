@@ -17,7 +17,7 @@ const Hero = () => {
           fontStyle={"roboto700"}
         />
         <ButtonPrimary text={t("heroButton")} />
-        <Image src={posmain} className="md:px-16"></Image>
+        <Image src={posmain} alt="hero-image" className="md:px-16"></Image>
       </div>
     </div>
   );

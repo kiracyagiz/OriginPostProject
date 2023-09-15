@@ -20,6 +20,7 @@ const FeaturesCard = ({
         <div>
           <Image
             src={imagesrc}
+            alt="image"
             className="rounded-lg object-fill shadow-2xl hover:scale-105 hover:shadow-md cursor-pointer hover:shadow-black  transition-transform duration-300"
           ></Image>
         </div>

@@ -1,5 +1,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import tr from "../../../public/tr.png";
+import sq from "../../../public/sq.png";
+import en from "../../../public/en.png";
+
+import Image from "next/image";
 
 const Language = ({ locale, localeEn, param }) => {
   const [item, setItems] = useState({
@@ -14,16 +19,11 @@ const Language = ({ locale, localeEn, param }) => {
   });
 
   useEffect(() => {
-    const albanianURL =
-      "https://landing-dot-pos-al.ew.r.appspot.com/static/1f44ba221b2623e8eb84fc820378aea1/3591c/sq.webp";
-    const americanURL =
-      "https://landing-dot-pos-al.ew.r.appspot.com/static/745ac48644ea9f3506234651f91c42c2/3591c/en.webp";
-
     const isAlbanian = param === "sq";
 
     setImages({
-      current: isAlbanian ? albanianURL : americanURL,
-      alt: isAlbanian ? americanURL : albanianURL,
+      current: isAlbanian ? sq : en,
+      alt: isAlbanian ? en : sq,
       name: isAlbanian ? "SQ" : "EN",
       nameSecond: isAlbanian ? "EN" : "SQ",
     });
@@ -46,23 +46,29 @@ const Language = ({ locale, localeEn, param }) => {
   return (
     <div className="group ">
       <Link href={item.current}>
-        <div className="bg-primaryYellow flex items-center gap-x-1 md:group-hover:mt-12 ">
-          <img className="m-2 w-8" src={images.current} alt="#" />
+        <div className="bg-primaryYellow flex items-center gap-x-1 md:group-hover:mt-20 ">
+          <Image className="m-2 w-8" src={images.current} />
+          {/* <img className="m-2 w-8" src={images.current} alt="#" /> */}
           <p className="text-sm">{images.name}</p>
         </div>
       </Link>
       <Link href={item.alt}>
-        <div className="bg-white  items-center gap-x-1 w-20 hidden group-hover:flex ">
+        <div className="bg-white  items-center gap-x-1 w-20 hidden group-hover:flex rounded-lg ">
           <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 bg-white rotate-45"></div>
+          <Image className="m-2 w-8" src={images.alt} />
 
-          <img
+          {/* <img
             className="m-2 w-8 h-8 object-contain"
             src={images.alt}
             alt="#"
-          />
+          /> */}
           <p className="text-sm ">{images.nameSecond}</p>
         </div>
       </Link>
+      <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex  rounded-lg">
+        <Image src={tr} className="w-8 ml-2.5" />
+        <p className="text-sm ">{images.nameSecond}</p>
+      </div>
     </div>
   );
 };

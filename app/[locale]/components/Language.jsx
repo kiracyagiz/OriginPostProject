@@ -46,7 +46,7 @@ const Language = ({ locale, localeEn, param }) => {
   return (
     <div className="group ">
       <Link href={item.current}>
-        <div className="bg-primaryYellow flex items-center gap-x-1 md:group-hover:mt-20 ">
+        <div className="bg-primaryYellow flex items-center gap-x-1 md:group-hover:mt-16 ">
           <Image className="m-2 w-8" src={images.current} />
           {/* <img className="m-2 w-8" src={images.current} alt="#" /> */}
           <p className="text-sm">{images.name}</p>
@@ -65,9 +65,9 @@ const Language = ({ locale, localeEn, param }) => {
           <p className="text-sm ">{images.nameSecond}</p>
         </div>
       </Link>
-      <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex  rounded-lg">
+      <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
         <Image src={tr} className="w-8 ml-2.5" />
-        <p className="text-sm ">{images.nameSecond}</p>
+        <p className="text-sm ">TR</p>
       </div>
     </div>
   );

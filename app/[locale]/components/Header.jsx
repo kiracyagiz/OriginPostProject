@@ -19,13 +19,15 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
     >
       <div className="flex justify-between p-6 md:mx-67 gap-x-44 animate-slide-down ">
         <div className="items-center flex justify-between ">
-          <p className="heroRoboto ">Pos.</p>
+          <a className="heroRoboto" href={"/"}>
+            Pos.
+          </a>
         </div>
         <nav className="items-center hidden md:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
-          <a href={`#pricing`}>{nav1}</a>
-          <a href="#features">{nav2}</a>
+          <a href={`/#pricing`}>{nav1}</a>
+          <a href="/#features">{nav2}</a>
           <Link href="https://posal.tawk.help/">{nav3}</Link>
-          <a href="#contact">{nav4}</a>
+          <a href="/#contact">{nav4}</a>
 
           <li className="">
             <ButtonPrimary text={navButton} />

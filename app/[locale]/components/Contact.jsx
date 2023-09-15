@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 const Contact = () => {
   const t = useTranslations("Contact");
   return (
-    <div className="  flex flex-col items-center  p-8 md:p-0 mx-auto mt-36  gap-y-8">
+    <div className="  flex flex-col items-center  mb-12 p-8 md:p-0 mx-auto mt-36  gap-y-8">
       <div className="text-center">
         <h1 className="text-contactH font-semibold mb-2 roboto700">
           {t("title")}

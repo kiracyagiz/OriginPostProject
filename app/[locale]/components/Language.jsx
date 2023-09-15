@@ -53,7 +53,7 @@ const Language = ({ locale, localeEn, param }) => {
         </div>
       </Link>
       <Link href={item.alt}>
-        <div className="bg-white  items-center gap-x-1 w-20 hidden group-hover:flex rounded-lg ">
+        <div className="bg-white  items-center gap-x-1 w-20 hidden group-hover:flex rounded-t-lg ">
           <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 bg-white rotate-45"></div>
           <Image className="m-2 w-8" src={images.alt} />
 

@@ -26,7 +26,7 @@ const Terms = () => {
         {p("title")}
       </h1>
 
-      <div className=" md:gap-x-32 md:mx-32 mt-16 flex flex-col gap-y-8 md:flex-row items-start ">
+      <div className=" md:gap-x-32 md:mx-32 mt-16  mb-16 flex flex-col gap-y-8 md:flex-row items-start ">
         <div className="w-1/4 md:sticky md:top-0 mx-auto items-center md:left-36 bg-gray-100 pt-8">
           <p className="text-xl font-bold mb-4 roboto700">{p("contents")}</p>
           <div className="flex flex-col w-fit md:gap-y-2 active">

@@ -51,7 +51,7 @@ const Header = ({
           panelOpen ? "right-0 " : "right-[-100%] duration-1000"
         }  duration-700 ease-in-out fixed top-0 right-0 bottom-0 h-full w-1/2 bg-primaryYellow p-4 shadow-md `}
       >
-        <div className="flex flex-col list-none font-bold text-lg text-center items-center mt-52 gap-y-8">
+        <div className="flex flex-col roboto700  font-bold text-lg text-center items-center mt-44 gap-y-8">
           <a href={`/#pricing`}>{nav1}</a>
           <a href="/#features">{nav2}</a>
           <Link href="https://posal.tawk.help/">{nav3}</Link>

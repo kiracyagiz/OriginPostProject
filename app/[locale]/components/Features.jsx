@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 const Features = () => {
   const t = useTranslations("Features");
   return (
-    <div className="h-fit">
+    <div className="h-fit" id="features">
       <h2 className="text-3xl font-semibold text-center  mt-16">
         {t("title")}
       </h2>

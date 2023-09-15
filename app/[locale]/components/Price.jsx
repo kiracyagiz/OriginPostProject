@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 const Price = () => {
   const t = useTranslations("Price");
   return (
-    <div className="h-fit p-8" id="#pricing">
+    <div className="h-fit p-8" id="pricing">
       <p className="text-center text-3xl font-bold md:mt-20">{t("title")}</p>
 
       <div className="flex flex-wrap md:mx-67 gap-y-12 mt-14">

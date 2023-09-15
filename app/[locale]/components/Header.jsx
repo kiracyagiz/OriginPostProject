@@ -22,10 +22,11 @@ const Header = ({ nav1, nav2, nav3, nav4, navButton, locale, localeEn }) => {
           <p className="heroRoboto ">Pos.</p>
         </div>
         <nav className="items-center hidden md:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
-          <li>{nav1}</li>
-          <li>{nav2}</li>
-          <li>{nav3}</li>
-          <li>{nav4}</li>
+          <a href={`#pricing`}>{nav1}</a>
+          <a href="#features">{nav2}</a>
+          <Link href="https://posal.tawk.help/">{nav3}</Link>
+          <a href="#contact">{nav4}</a>
+
           <li className="">
             <ButtonPrimary text={navButton} />
           </li>

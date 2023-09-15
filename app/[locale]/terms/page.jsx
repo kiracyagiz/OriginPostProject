@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useTranslations } from "next-intl";
 
-const Terms = () => {
+const Terms = ({ params }) => {
   const t = useTranslations("Header");
   const p = useTranslations("Terms");
   const nav1 = t("nav1");
@@ -21,6 +21,7 @@ const Terms = () => {
         navButton={navButton}
         locale={"/sq/terms"}
         localeEn={"/en/terms"}
+        param={params.locale}
       />
       <h1 className="text-center text-4xl mt-16 font-semibold heroRoboto">
         {p("title")}

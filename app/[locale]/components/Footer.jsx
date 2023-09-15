@@ -12,7 +12,9 @@ const Footer = () => {
         </div>
 
         <div className="list-none text-semibold text-sm md:text-md flex  gap-x-4 md:gap-x-16 roboto700 text-primaryYellow">
-          <li>HOME</li>
+          <Link href={`${t("locale")}`}>
+            <li>HOME</li>
+          </Link>
 
           <Link href={`${t("locale")}/terms`}>
             <li>TERMS</li>

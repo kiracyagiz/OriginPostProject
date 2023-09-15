@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useTranslations } from "next-intl";
 
-const FAQ = () => {
+const FAQ = ({ params }) => {
   const t = useTranslations("Header");
   const nav1 = t("nav1");
   const nav2 = t("nav2");
@@ -22,6 +22,7 @@ const FAQ = () => {
         navButton={navButton}
         locale={"/sq/faq"}
         localeEn={"/en/faq"}
+        param={params.locale}
       />
       <p className="roboto700 text-center mt-8 text-3xl mb-8">{p("title")}</p>
 

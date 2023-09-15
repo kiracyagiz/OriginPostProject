@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { useTranslations } from "next-intl";
 import TextPrimary from "../components/TextPrimary";
 import Footer from "../components/Footer";
-const About = () => {
+const About = ({ params }) => {
   const t = useTranslations("Header");
   const p = useTranslations("About");
   const nav1 = t("nav1");
@@ -21,6 +21,7 @@ const About = () => {
         navButton={navButton}
         locale={"/sq/about"}
         localeEn={"/en/about"}
+        param={params.locale}
       />
       <div className="bg-gray-100 mt-8 mb-16  h-fit">
         <div className=" mx-auto flex gap-y-3 flex-col max-w-3xl p-12 rounded-lg shadow-2xl border border-gray-200 p bg-white">

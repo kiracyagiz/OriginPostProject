@@ -5,8 +5,11 @@ import Image from "next/image";
 import posmain from "../../../public/pos-main.png";
 import TextPrimary from "./TextPrimary";
 
-const Hero = () => {
+const Hero = ({ param }) => {
+  const albanianURL = "https://posal.tawk.help/";
+  const enUrl = "https://posal.tawk.help/en-us";
   const t = useTranslations("Hero");
+
   return (
     <div className="bg-gray-100">
       <div className="p-8 md:p-0 flex flex-col items-center font-bold text-center mt-6 md:mt-16 gap-y-10">
@@ -16,7 +19,12 @@ const Hero = () => {
           font={"text-2xl"}
           fontStyle={"roboto700"}
         />
-        <ButtonPrimary text={t("heroButton")} />
+        <ButtonPrimary
+          text={t("heroButton")}
+          param={param}
+          albanianURL={albanianURL}
+          enUrl={enUrl}
+        />
         <Image src={posmain} alt="hero-image" className="md:px-16"></Image>
       </div>
     </div>

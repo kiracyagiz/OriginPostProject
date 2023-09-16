@@ -32,7 +32,12 @@ const PriceBox = ({ feature, price, desc }) => {
         </span>
         <p className="tracking-tighter roboto400">{desc}</p>
       </div>
-      <ButtonPrimary text={t("priceButton")} fontStyle={"roboto400"} />
+      <ButtonPrimary
+        text={t("priceButton")}
+        fontStyle={"roboto400"}
+        albanianURL={"https://app.pos.al/login"}
+        enUrl={"https://app.pos.al/login"}
+      />
     </div>
   );
 };

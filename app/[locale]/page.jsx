@@ -21,7 +21,7 @@ export default function Home({ params }) {
         localeEn={"/en"}
         param={param.locale}
       />
-      <Hero />
+      <Hero param={param.locale} />
       <Price />
       <Features />
       <Contact />

@@ -47,7 +47,7 @@ const Language = ({ locale, localeEn, param }) => {
     <div className="group ">
       <Link href={item.current}>
         <div className="bg-primaryYellow flex items-center gap-x-1 md:group-hover:mt-16 ">
-          <Image className="m-2 w-8" src={images.current} />
+          <Image className="m-2 w-8" src={images.current} alt="image" />
           {/* <img className="m-2 w-8" src={images.current} alt="#" /> */}
           <p className="text-sm">{images.name}</p>
         </div>
@@ -55,18 +55,18 @@ const Language = ({ locale, localeEn, param }) => {
       <Link href={item.alt}>
         <div className="bg-white  items-center gap-x-1 w-20 hidden group-hover:flex rounded-t-lg ">
           <div className="w-2 h-2 duration-0  absolute ml-6 mb-12 md:top-4.5 bg-white rotate-45"></div>
-          <Image className="m-2 w-8" src={images.alt} />
+          <Image className="m-2 w-8" src={images.alt} alt="image" />
 
           {/* <img
             className="m-2 w-8 h-8 object-contain"
             src={images.alt}
             alt="#"
           /> */}
-          <p className="text-sm ">{images.nameSecond}</p>
+          <p className="text-sm ">{images.nameSecond} </p>
         </div>
       </Link>
       <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
-        <Image src={tr} className="w-8 ml-2.5" />
+        <Image src={tr} className="w-8 ml-2.5" alt="image" />
         <p className="text-sm ">TR</p>
       </div>
     </div>

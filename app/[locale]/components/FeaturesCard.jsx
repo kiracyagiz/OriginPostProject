@@ -31,7 +31,11 @@ const FeaturesCard = ({
             {h1}
           </p>
           <p className="max-w-sm tracking-tight roboto400">{p}</p>
-          <div className="flex gap-x-2 mt-4 roboto400">
+          <div
+            className={` ${
+              ImagepositionLeft ? "flex flex-row" : "flex flex-col"
+            } gap-x-2 md:flex md:flex-row mt-4 roboto400`}
+          >
             <TextPrimary font={"text-md"} text={primary1} />
             <TextPrimary font={"text-md"} text={primary2} />
           </div>

@@ -37,7 +37,7 @@ module.exports = {
         2.5: "10px",
       },
       spacing: {
-        4.5: "66px",
+        4.5: "62px",
       },
       screens: {
         xlmd: "991px",

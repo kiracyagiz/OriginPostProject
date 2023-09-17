@@ -17,6 +17,7 @@ const FAQ = ({ params }) => {
         navButton={t("navButton")}
         locale={"/sq/faq"}
         localeEn={"/en/faq"}
+        localeTr={"/tr/faq"}
         param={params.locale}
       />
       <p className="roboto700 text-center mt-8 text-3xl mb-8">{p("title")}</p>

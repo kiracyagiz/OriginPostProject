@@ -19,6 +19,7 @@ export default function Home({ params }) {
         navButton={t("navButton")}
         locale={"/sq"}
         localeEn={"/en"}
+        localeTr={"/tr"}
         param={param.locale}
       />
       <Hero param={param.locale} />

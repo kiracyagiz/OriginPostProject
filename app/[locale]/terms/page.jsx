@@ -15,6 +15,7 @@ const Terms = ({ params }) => {
         navButton={t("navButton")}
         locale={"/terms"}
         localeEn={"/terms"}
+        localeTr={"/terms"}
         param={params.locale}
       />
       <h1 className="text-center text-4xl mt-16 font-semibold heroRoboto">

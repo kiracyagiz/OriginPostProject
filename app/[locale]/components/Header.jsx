@@ -15,6 +15,7 @@ const Header = ({
   locale,
   localeEn,
   param,
+  localeTr,
 }) => {
   const [panelOpen, setPanelOpen] = useState(false);
 
@@ -60,7 +61,12 @@ const Header = ({
           </div>
 
           <ButtonPrimary text={navButton} />
-          <Language locale={locale} localeEn={localeEn} param={param} />
+          <Language
+            locale={locale}
+            localeEn={localeEn}
+            param={param}
+            localeTr={localeTr}
+          />
         </div>
       </div>
     </header>

@@ -16,6 +16,7 @@ const About = ({ params }) => {
         navButton={t("navButton")}
         locale={"/sq/about"}
         localeEn={"/en/about"}
+        localeTr={"tr/about"}
         param={params.locale}
       />
       <div className="bg-gray-100 mt-8 mb-16  h-fit">

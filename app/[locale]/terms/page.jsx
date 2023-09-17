@@ -13,9 +13,9 @@ const Terms = ({ params }) => {
         nav3={t("nav3")}
         nav4={t("nav4")}
         navButton={t("navButton")}
-        locale={"/terms"}
-        localeEn={"/terms"}
-        localeTr={"/terms"}
+        locale={"/sq/terms"}
+        localeEn={"/en/terms"}
+        localeTr={"/tr/terms"}
         param={params.locale}
       />
       <h1 className="text-center text-4xl mt-16 font-semibold heroRoboto">

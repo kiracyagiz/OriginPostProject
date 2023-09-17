@@ -6,7 +6,7 @@ import en from "../../../public/en.png";
 
 import Image from "next/image";
 
-const Language = ({ locale, localeEn, param, localeTr }) => {
+const Language = ({ locale, localeEn, param }) => {
   const [item, setItems] = useState({
     current: "",
     alt: "",
@@ -42,17 +42,17 @@ const Language = ({ locale, localeEn, param, localeTr }) => {
       setItems({
         current: locale,
         alt: localeEn,
-        last: localeTr,
+        last: "tr",
       });
     } else if (param === "en") {
       setItems({
         current: localeEn,
-        alt: localeTr,
+        alt: "tr",
         last: locale,
       });
     } else {
       setItems({
-        current: localeTr,
+        current: "tr",
         alt: locale,
         last: localeEn,
       });

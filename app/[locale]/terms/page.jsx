@@ -13,8 +13,8 @@ const Terms = ({ params }) => {
         nav3={t("nav3")}
         nav4={t("nav4")}
         navButton={t("navButton")}
-        locale={"/sq/terms"}
-        localeEn={"/en/terms"}
+        locale={"/terms"}
+        localeEn={"/terms"}
         param={params.locale}
       />
       <h1 className="text-center text-4xl mt-16 font-semibold heroRoboto">

@@ -74,11 +74,12 @@ const Language = ({ locale, localeEn, param }) => {
           <p className="text-sm ">{images.nameSecond} </p>
         </div>
       </Link>
-
-      <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
-        <Image src={images.last} className="w-8 ml-2.5" alt="image" />
-        <p className="text-sm ">{images.nameThird}</p>
-      </div>
+      <Link href={item.last}>
+        <div className="bg-white  items-center gap-x-1 w-20 hidden  py-2 group-hover:flex rounded-b-lg">
+          <Image src={images.last} className="w-8 ml-2.5" alt="image" />
+          <p className="text-sm ">{images.nameThird}</p>
+        </div>
+      </Link>
     </div>
   );
 };

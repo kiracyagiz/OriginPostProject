@@ -19,16 +19,7 @@ const About = ({ params }) => {
   };
   return (
     <div className="bg-gray-100">
-      <Header
-        nav1={t("nav1")}
-        nav2={t("nav2")}
-        nav3={t("nav3")}
-        nav4={t("nav4")}
-        navButton={t("navButton")}
-        locale={"/sq/about"}
-        localeEn={"/en/about"}
-        param={params.locale}
-      />
+      <Header {...headerProps} />
       <div className="bg-gray-100 mt-8 mb-16  h-fit">
         <div className=" mx-auto flex gap-y-3 flex-col max-w-3xl p-12 rounded-lg shadow-2xl border border-gray-200 p bg-white">
           <h2 className=" aboutTitle text-center mb-4">{p("title")}</h2>

@@ -28,19 +28,38 @@ const Header = (props) => {
     <header
       className={`flex justify-between items-center h-100 bg-primaryYellow`}
     >
-      <div className="flex justify-between p-6 md:mx-67 gap-x-44 animate-slide-down ">
+      <div className="flex justify-between p-6 md:mx-67 gap-x-44 animate-slide-down whitespace-nowrap ">
         <div className="items-center flex justify-between ">
           <a className="heroRoboto" href={"/"}>
             Pos.
           </a>
         </div>
         <nav className="items-center hidden md:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
-          <a href={`/#pricing`}>{nav1}</a>
-          <a href="/#features">{nav2}</a>
-          <Link href="https://posal.tawk.help/">{nav3}</Link>
-          <a href="/#contact">{nav4}</a>
+          <a href={`/#pricing`} className="relative group">
+            {nav1}
+            <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
+          </a>
 
-          <ButtonPrimary text={navButton} />
+          <a href="/#features" className="relative group">
+            {nav2}
+            <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
+          </a>
+
+          <a className="relative group" href="https://posal.tawk.help/">
+            {nav3}
+            <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
+          </a>
+
+          <a href="/#contact" className="relative group">
+            {nav4}
+            <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
+          </a>
+
+          <ButtonPrimary
+            text={navButton}
+            albanianURL={"https://app.pos.al/"}
+            enUrl={"https://app.pos.al/"}
+          />
 
           <Language
             locale={locale}

@@ -9,19 +9,20 @@ import Price from "./components/Price";
 export default function Home({ params }) {
   const t = useTranslations("Header");
   const param = params;
+  const headerProps = {
+    nav1: t("nav1"),
+    nav2: t("nav2"),
+    nav3: t("nav3"),
+    nav4: t("nav4"),
+    navButton: t("navButton"),
+    locale: "/sq",
+    localeEn: "/en",
+    localeTr: "/tr",
+    param: param.locale,
+  };
   return (
     <div className="bg-gray-100">
-      <Header
-        nav1={t("nav1")}
-        nav2={t("nav2")}
-        nav3={t("nav3")}
-        nav4={t("nav4")}
-        navButton={t("navButton")}
-        locale={"/sq"}
-        localeEn={"/en"}
-        localeTr={"/tr"}
-        param={param.locale}
-      />
+      <Header {...headerProps} />
       <Hero param={param.locale} />
       <Price />
       <Features />

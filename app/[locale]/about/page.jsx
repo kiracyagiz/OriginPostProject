@@ -6,6 +6,17 @@ import Footer from "../components/Footer";
 const About = ({ params }) => {
   const t = useTranslations("Header");
   const p = useTranslations("About");
+  const headerProps = {
+    nav1: t("nav1"),
+    nav2: t("nav2"),
+    nav3: t("nav3"),
+    nav4: t("nav4"),
+    navButton: t("navButton"),
+    locale: "/sq/about",
+    localeEn: "/en/about",
+    localeTr: "/tr/about",
+    param: params.locale,
+  };
   return (
     <div className="bg-gray-100">
       <Header

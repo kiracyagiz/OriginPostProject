@@ -6,17 +6,18 @@ import ButtonPrimary from "./ButtonPrimary";
 import Language from "./Language";
 import Link from "next/link";
 
-const Header = ({
-  nav1,
-  nav2,
-  nav3,
-  nav4,
-  navButton,
-  locale,
-  localeEn,
-  param,
-  localeTr,
-}) => {
+const Header = (props) => {
+  const {
+    nav1,
+    nav2,
+    nav3,
+    nav4,
+    navButton,
+    locale,
+    localeEn,
+    param,
+    localeTr,
+  } = props;
   const [panelOpen, setPanelOpen] = useState(false);
 
   const togglePanel = () => {
@@ -41,7 +42,12 @@ const Header = ({
 
           <ButtonPrimary text={navButton} />
 
-          <Language locale={locale} localeEn={localeEn} param={param} />
+          <Language
+            locale={locale}
+            localeEn={localeEn}
+            param={param}
+            localeTr={localeTr}
+          />
         </nav>
       </div>
 

@@ -6,20 +6,21 @@ import { useTranslations } from "next-intl";
 const FAQ = ({ params }) => {
   const t = useTranslations("Header");
   const p = useTranslations("Faq");
+  const headerProps = {
+    nav1: t("nav1"),
+    nav2: t("nav2"),
+    nav3: t("nav3"),
+    nav4: t("nav4"),
+    navButton: t("navButton"),
+    locale: "/sq/faq",
+    localeEn: "/en/faq",
+    localeTr: "/tr/faq",
+    param: params.locale,
+  };
 
   return (
     <div className="bg-gray-100 h-screen">
-      <Header
-        nav1={t("nav1")}
-        nav2={t("nav2")}
-        nav3={t("nav3")}
-        nav4={t("nav4")}
-        navButton={t("navButton")}
-        locale={"/sq/faq"}
-        localeEn={"/en/faq"}
-        localeTr={"/tr/faq"}
-        param={params.locale}
-      />
+      <Header {...headerProps} />
       <p className="roboto700 text-center mt-8 text-3xl mb-8">{p("title")}</p>
 
       <div className="container items-center mt-4 bg-gray-100 py-4 pb-14  mx-auto ">

@@ -7,13 +7,12 @@ const TermsSections = (props) => {
   const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
-    // Function to handle scrolling and update the active section
     const handleScroll = () => {
       const sections = document.querySelectorAll("section[id]");
       const scrollY = window.scrollY;
 
       sections.forEach((section) => {
-        const sectionTop = section.offsetTop - 200; // Adjust this value as needed
+        const sectionTop = section.offsetTop - 200;
         const sectionBottom = sectionTop + section.clientHeight;
 
         if (scrollY >= sectionTop && scrollY < sectionBottom) {
@@ -22,10 +21,8 @@ const TermsSections = (props) => {
       });
     };
 
-    // Attach the scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -39,7 +36,7 @@ const TermsSections = (props) => {
         <div className="flex flex-col w-fit md:gap-y-2 roboto400">
           {cTexts.map((dt, i) => (
             <a
-              href={`#${dt}`} // Use '#' to create anchor links to sections
+              href={`#${dt}`}
               key={i}
               className={activeSection === dt ? "active" : ""}
             >

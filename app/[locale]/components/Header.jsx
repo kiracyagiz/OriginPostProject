@@ -35,12 +35,12 @@ const Header = (props) => {
           </a>
         </div>
         <nav className="items-center hidden md:flex justify-between  list-none roboto700 font-bold  gap-x-10 text-xl">
-          <a href={`/#pricing`} className="relative group">
+          <a href={`${param}/#pricing`} className="relative group">
             {nav1}
             <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
           </a>
 
-          <a href="/#features" className="relative group">
+          <a href={`${param}/#features`} className="relative group">
             {nav2}
             <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
           </a>
@@ -50,7 +50,7 @@ const Header = (props) => {
             <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
           </a>
 
-          <a href="/#contact" className="relative group">
+          <a href={`${param}/#contact`} className="relative group">
             {nav4}
             <div className="w-0 bg-black h-under  opacity-0 group-hover:w-full group-hover:opacity-100 transition-all duration-300" />
           </a>
